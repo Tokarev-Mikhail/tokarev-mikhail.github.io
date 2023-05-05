@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title> Бронирование Авиабилетов</title>
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/iconsfont.css">
+</head>
+<body>
+  <header class="header">
+    <div class="nav">
+      <a class="nav__item nav__item--curent" href="#">
+       <span class="nav__item-indicator">1</span>Поиск</a>
+       <a class="nav__item nav__item--future" href="#">
+         <span class="nav__item-indicator">2</span>Выбор билетов</a>
+         <a class="nav__item nav__item--future" href="#">
+           <span class="nav__item-indicator">2</span>Данные пассажиров</a>
+           <a class="nav__item nav__item--future" href="#">
+             <span class="nav__item-indicator">2</span>Подтвержение</a>
+           </div>
+  </header>
+         <main class="title">
+          <div class="title__headline">Бронирование авиабилетов</div>
+          <form action="#" method="post" entype="multipart/form-data">
+            <div class="title__booking">
+              <label class="title__booking-item title__booking-item--departure-from"> 
+                <span class="title__booking-item-label">Откуда</span>
+                <input class="title__booking-item-input" list="city-from" type="text" placeholder="откуда" value="Москва">
+                <div class="title__booking-item-airport">DMV</div>
+                <button class="title__booking-item-button">+</button>
+              </label>
+              <label class="title__booking-item title__booking-item--departure-where">
+                <span class="title__booking-item-label">Куда</span>
+                <input class="title__booking-item-input" type="text" placeholder="Куда" value="Норильск">
+                <div class="title__booking-item-airport">NOR</div>
+              </label>
+              <label class="title__booking-item title__booking-item--date-there"> 
+                  <span class="title__booking-item-label title__booking-item-label-there">Туда</span> 
+                  <div class="title__wrap-calendar-there title__wrap-calendar-there--there">
+                    <span class="icon-calendar"></span>
+                    <input class="title__booking-item-input title__booking-item-input-there" type="text" placeholder="Туда" value="19 фев.">
+                  </div>
+                  <span class="icon-arrow-radius-there">
+                    <span class="icon-arrow"></span>
+                  </span>
+              </label>
+              <label class="title__booking-item title__booking-item--date-back">
+                <span class="title__booking-item-label title__booking-item-label-back">Обратно</span>
+                <div class="title__wrap-calendar-back">
+                  <span class="icon-calendar"></span>
+                  <input class="title__booking-item-input" type="text" placeholder="Обратно" value="  21 фев.">
+                </div>
+                <span class="icon-cross-radius-back">
+                  <span class="icon-cross"></span>
+                </span>
+              </label>
+              <label class="title__booking-item title__booking-item--passengers">
+                <span class="title__booking-item-label">Пассажиры</span> 
+                <input class="title__booking-item-input" type="text" placeholder="Пассажиры" value="1 пас.">
+                <span class="icon-arrow-radius-there">
+                  <span class="icon-arrow"></span>
+                </span>
+              </label>
+              <div class="title__booking-find">Найти</div>
+           </div>
+           <div class="title__booking2">
+            <label class="title__booking2-item title__booking2-item--transfer-point">
+              <input class="title__booking2-item-input" type="text" placeholder="Точка пересадки">
+              <span class="icon-arrow-radius-there">
+                  <span class="icon-arrow"></span>
+                </span> 
+            </label>
+            <div class="title__booking2-checkbox">
+              <label class="custom-checkbox">
+                <input type="checkbox" name="color-1" value="Прямой рейс">
+                  <span>Прямой рейс</span>
+              </label>
+            </div>
+           </div>
+          </form>
+        </main>
+      </body>
+      </html>

@@ -1,0 +1,21 @@
+﻿@font-face {
+  font-family: ProximaNova-Semibold;
+  src: url(/fonts/Proxima/ProximaNova-Semibold.eot?) format("eot");
+  src: url(/fonts/Proxima/ProximaNova-Semibold.woff) format("woff");
+  src: url(/fonts/Proxima/ProximaNova-Semibold.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: ProximaNova-Bold;
+  src: url(/fonts/Proxima/ProximaNova-Bold.eot?) format("eot");
+  src: url(/fonts/Proxima/ProximaNova-Bold.woff) format("woff");
+  src: url(/fonts/Proxima/ProximaNova-Bold.ttf) format("truetype");
+  font-style: bold;
+}
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url(fonts/ProximaNova-Regular.eot?) format("eot");
+  src: url(fonts/ProximaNova-Regular.woff) format("woff");
+  src: url(fonts/ProximaNova-Regular.ttf) format("truetype");
+  font-style: normal;
+}
